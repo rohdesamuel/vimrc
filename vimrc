@@ -74,3 +74,6 @@ let g:ycm_confirm_extra_conf = 0
 
 " Search while typing.
 set incsearch
+
+" Search highlighted word.
+vnoremap // y/\V<C-R>"<CR>
