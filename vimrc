@@ -71,3 +71,6 @@ nnoremap <C-Left> <C-w>h
 set timeoutlen=1000 ttimeoutlen=0
 let g:ycm_filetype_whitelist = { '*': 1 }
 let g:ycm_confirm_extra_conf = 0
+
+" Search while typing.
+set incsearch
